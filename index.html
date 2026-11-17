@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SPINVERSE – The Ultimate Spin &amp; Decision Platform</title>
+    <meta
+      name="description"
+      content="Can't decide? Spin interactive decision wheels for Yes or No answers, daily life choices, fun challenges, motivation, and custom wheels on SPINVERSE."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="SPINVERSE" />
+    <meta property="og:title" content="SPINVERSE – The Ultimate Spin &amp; Decision Platform" />
+    <meta
+      property="og:description"
+      content="Big decisions, small choices, everyday confusion. Spin interactive wheels, build your own, and discover uplifting next steps."
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="SPINVERSE – The Ultimate Spin &amp; Decision Platform" />
+    <meta
+      name="twitter:description"
+      content="Spin interactive decision wheels for quick Yes/No choices, daily routines, games, motivation, and custom wheels."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;600&family=Outfit:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "SPINVERSE",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "All",
+        "description": "Interactive spinning wheel and decision-making platform with 50+ curated wheels, custom wheel builder, daily challenges, and local spin history.",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        }
+      }
+    </script>
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem('spinverse_theme');
+          var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+          if (saved === 'dark' || (!saved && prefersDark)) {
+            document.documentElement.classList.add('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="bg-slate-50 text-slate-900 dark:bg-[#090D16] dark:text-slate-100 antialiased selection:bg-indigo-500/20 selection:text-indigo-700 dark:selection:text-indigo-300">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
