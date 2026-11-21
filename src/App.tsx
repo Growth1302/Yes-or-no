@@ -717,17 +717,7 @@ export default function App() {
               <div className="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-10 items-center">
                 {/* Left on Desktop / Second on Mobile: Hero Copy, Primary Actions, How It Works */}
                 <div className="order-2 lg:order-1 lg:col-span-6 space-y-5 sm:space-y-6">
-                  <script>
-  atOptions = {
-    'key' : '0604ad8cf93388bd0582149f69ab0c47',
-    'format' : 'iframe',
-    'height' : 50,
-    'width' : 320,
-    'params' : {}
-  };
-</script>
-<script src="https://bicea.org/22/0604ad8cf93388bd0582149f69ab0c47"></script>
-                  <div className="text-xs sm:text-sm font-medium text-blue-600 dark:text-blue-400">
+                                <div className="text-xs sm:text-sm font-medium text-blue-600 dark:text-blue-400">
                     54 Curated Wheels · Custom Builder · Instant Clarity
                   </div>
 
